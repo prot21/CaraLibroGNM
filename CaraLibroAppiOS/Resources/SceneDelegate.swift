@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  CaraLibroAppiOS
 //
-//  Created by Pablo La Plata on 20/06/22.
+//  Created Gera Munoz on 20/06/22.
 //
 
 import UIKit
