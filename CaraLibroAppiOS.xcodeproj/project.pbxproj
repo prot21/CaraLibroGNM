@@ -22,6 +22,7 @@
 		9D2445EF28619A450076B7ED /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2445EE28619A450076B7ED /* Extensions.swift */; };
 		9DB9C419286413960042F137 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 9DB9C418286413960042F137 /* FirebaseAuth */; };
 		9DB9C41B286413960042F137 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 9DB9C41A286413960042F137 /* FirebaseFirestore */; };
+		9DB9C41D286418F10042F137 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9DB9C41C286418F10042F137 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		9D2445E9286180A90076B7ED /* NewConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationViewController.swift; sourceTree = "<group>"; };
 		9D2445EB286180C20076B7ED /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		9D2445EE28619A450076B7ED /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		9DB9C41C286418F10042F137 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		9D2445C628617B6D0076B7ED /* CaraLibroAppiOS */ = {
 			isa = PBXGroup;
 			children = (
+				9DB9C41C286418F10042F137 /* GoogleService-Info.plist */,
 				9D2445DF28617CE40076B7ED /* Resources */,
 				9D2445DE28617CDD0076B7ED /* ViewModels */,
 				9D2445DD28617CD60076B7ED /* Models */,
@@ -214,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D2445D428617B700076B7ED /* LaunchScreen.storyboard in Resources */,
+				9DB9C41D286418F10042F137 /* GoogleService-Info.plist in Resources */,
 				9D2445D128617B700076B7ED /* Assets.xcassets in Resources */,
 				9D2445CF28617B6D0076B7ED /* Main.storyboard in Resources */,
 			);
