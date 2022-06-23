@@ -97,16 +97,16 @@ class RegisterViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "Iniciar Sesión"
+        title = "Registrarse"
         view.backgroundColor = .white
         
-        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Registrarse",
-                                                                    style: .done,
-                                                                    target: self,
-                                                                    action: #selector(didTapRegister))
-        registerButton.addTarget(self,
-                              action: #selector(registerButtonTapped),
-                              for: .touchUpInside)
+        //navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Registrarse",
+        //                                                            style: .done,
+        //                                                            target: self,
+        //                                                            action: #selector(didTapRegister))
+        //registerButton.addTarget(self,
+          //                    action: #selector(registerButtonTapped),
+            //                  for: .touchUpInside)
         
         emailField.delegate = self
         passwordField.delegate = self
