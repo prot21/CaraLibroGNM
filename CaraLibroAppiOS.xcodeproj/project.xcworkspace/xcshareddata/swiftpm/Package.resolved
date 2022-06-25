@@ -74,12 +74,39 @@
         }
       },
       {
+        "package": "InputBarAccessoryView",
+        "repositoryURL": "https://github.com/nathantannar4/InputBarAccessoryView",
+        "state": {
+          "branch": null,
+          "revision": "2843b4454cfb6de5b4d1e5939fef2dd6257b69ee",
+          "version": "5.5.0"
+        }
+      },
+      {
+        "package": "JGProgressHUD",
+        "repositoryURL": "https://github.com/JonasGessner/JGProgressHUD",
+        "state": {
+          "branch": "master",
+          "revision": "103d67f308b8c0c18926061025549af98cdfd6fc",
+          "version": null
+        }
+      },
+      {
         "package": "leveldb",
         "repositoryURL": "https://github.com/firebase/leveldb.git",
         "state": {
           "branch": null,
           "revision": "0706abcc6b0bd9cedfbb015ba840e4a780b5159b",
           "version": "1.22.2"
+        }
+      },
+      {
+        "package": "MessageKit",
+        "repositoryURL": "https://github.com/MessageKit/MessageKit",
+        "state": {
+          "branch": null,
+          "revision": "84236d91ac5783e3ecbefc15b82d854476720115",
+          "version": "3.8.0"
         }
       },
       {
@@ -98,6 +125,33 @@
           "branch": null,
           "revision": "46c1e6b5ac09d8f82c991061c659f67e573d425d",
           "version": "2.1.0"
+        }
+      },
+      {
+        "package": "RealmDatabase",
+        "repositoryURL": "https://github.com/realm/realm-core",
+        "state": {
+          "branch": null,
+          "revision": "fd48276f88f3d55dbdcdc9e8cbf32541811d5865",
+          "version": "12.1.0"
+        }
+      },
+      {
+        "package": "Realm",
+        "repositoryURL": "https://github.com/realm/realm-swift",
+        "state": {
+          "branch": "master",
+          "revision": "9f7a605dfcf6a60e019a296dc8d91c3b23837a82",
+          "version": null
+        }
+      },
+      {
+        "package": "SDWebImage",
+        "repositoryURL": "https://github.com/SDWebImage/SDWebImage",
+        "state": {
+          "branch": "master",
+          "revision": "0b661344fe83e1c8e3d8716527f727ee6210260c",
+          "version": null
         }
       },
       {

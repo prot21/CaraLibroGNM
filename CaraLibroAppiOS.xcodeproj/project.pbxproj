@@ -25,6 +25,10 @@
 		9DB9C424286568C50042F137 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 9DB9C423286568C50042F137 /* FirebaseDatabase */; };
 		9DB9C426286568C50042F137 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 9DB9C425286568C50042F137 /* FirebaseFirestore */; };
 		9DB9C4282865692A0042F137 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9DB9C4272865692A0042F137 /* GoogleService-Info.plist */; };
+		9DB9C42B2866BE910042F137 /* MessageKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9DB9C42A2866BE910042F137 /* MessageKit */; };
+		9DB9C42E2866BEC90042F137 /* JGProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 9DB9C42D2866BEC90042F137 /* JGProgressHUD */; };
+		9DB9C4312866BFC40042F137 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9DB9C4302866BFC40042F137 /* RealmSwift */; };
+		9DB9C4342866BFFF0042F137 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 9DB9C4332866BFFF0042F137 /* SDWebImage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,9 +56,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DB9C4312866BFC40042F137 /* RealmSwift in Frameworks */,
 				9DB9C424286568C50042F137 /* FirebaseDatabase in Frameworks */,
 				9DB9C422286568C50042F137 /* FirebaseAuth in Frameworks */,
+				9DB9C4342866BFFF0042F137 /* SDWebImage in Frameworks */,
 				9DB9C426286568C50042F137 /* FirebaseFirestore in Frameworks */,
+				9DB9C42B2866BE910042F137 /* MessageKit in Frameworks */,
+				9DB9C42E2866BEC90042F137 /* JGProgressHUD in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +184,10 @@
 				9DB9C421286568C50042F137 /* FirebaseAuth */,
 				9DB9C423286568C50042F137 /* FirebaseDatabase */,
 				9DB9C425286568C50042F137 /* FirebaseFirestore */,
+				9DB9C42A2866BE910042F137 /* MessageKit */,
+				9DB9C42D2866BEC90042F137 /* JGProgressHUD */,
+				9DB9C4302866BFC40042F137 /* RealmSwift */,
+				9DB9C4332866BFFF0042F137 /* SDWebImage */,
 			);
 			productName = CaraLibroAppiOS;
 			productReference = 9D2445C428617B6D0076B7ED /* CaraLibroAppiOS.app */;
@@ -207,6 +219,10 @@
 			mainGroup = 9D2445BB28617B6D0076B7ED;
 			packageReferences = (
 				9DB9C420286568C50042F137 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				9DB9C4292866BE910042F137 /* XCRemoteSwiftPackageReference "MessageKit" */,
+				9DB9C42C2866BEC90042F137 /* XCRemoteSwiftPackageReference "JGProgressHUD" */,
+				9DB9C42F2866BFC40042F137 /* XCRemoteSwiftPackageReference "realm-swift" */,
+				9DB9C4322866BFFF0042F137 /* XCRemoteSwiftPackageReference "SDWebImage" */,
 			);
 			productRefGroup = 9D2445C528617B6D0076B7ED /* Products */;
 			projectDirPath = "";
@@ -480,6 +496,38 @@
 				kind = branch;
 			};
 		};
+		9DB9C4292866BE910042F137 /* XCRemoteSwiftPackageReference "MessageKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MessageKit/MessageKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		9DB9C42C2866BEC90042F137 /* XCRemoteSwiftPackageReference "JGProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JonasGessner/JGProgressHUD";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		9DB9C42F2866BFC40042F137 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		9DB9C4322866BFFF0042F137 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -497,6 +545,26 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 9DB9C420286568C50042F137 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseFirestore;
+		};
+		9DB9C42A2866BE910042F137 /* MessageKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9DB9C4292866BE910042F137 /* XCRemoteSwiftPackageReference "MessageKit" */;
+			productName = MessageKit;
+		};
+		9DB9C42D2866BEC90042F137 /* JGProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9DB9C42C2866BEC90042F137 /* XCRemoteSwiftPackageReference "JGProgressHUD" */;
+			productName = JGProgressHUD;
+		};
+		9DB9C4302866BFC40042F137 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9DB9C42F2866BFC40042F137 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		9DB9C4332866BFFF0042F137 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9DB9C4322866BFFF0042F137 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
