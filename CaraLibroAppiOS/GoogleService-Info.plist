@@ -30,5 +30,7 @@
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
 	<string>1:238990843800:ios:e41fbbaf631e0c50a915ed</string>
+	<key>DATABASE_URL</key>
+	<string>https://caralibrognm-default-rtdb.firebaseio.com</string>
 </dict>
 </plist>
