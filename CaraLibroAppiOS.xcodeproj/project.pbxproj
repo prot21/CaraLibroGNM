@@ -29,6 +29,7 @@
 		9DB9C42E2866BEC90042F137 /* JGProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 9DB9C42D2866BEC90042F137 /* JGProgressHUD */; };
 		9DB9C4312866BFC40042F137 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9DB9C4302866BFC40042F137 /* RealmSwift */; };
 		9DB9C4342866BFFF0042F137 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 9DB9C4332866BFFF0042F137 /* SDWebImage */; };
+		9DE14CAA287B66C900BB21AB /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE14CA9287B66C900BB21AB /* ChatViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		9D2445EE28619A450076B7ED /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		9DB9C41E286563B80042F137 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		9DB9C4272865692A0042F137 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9DE14CA9287B66C900BB21AB /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				9D2445E72861807A0076B7ED /* VideoPlayerViewController.swift */,
 				9D2445E9286180A90076B7ED /* NewConversationViewController.swift */,
 				9D2445EB286180C20076B7ED /* ProfileViewController.swift */,
+				9DE14CA9287B66C900BB21AB /* ChatViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				9D2445C828617B6D0076B7ED /* AppDelegate.swift in Sources */,
 				9D2445EC286180C20076B7ED /* ProfileViewController.swift in Sources */,
 				9D2445CA28617B6D0076B7ED /* SceneDelegate.swift in Sources */,
+				9DE14CAA287B66C900BB21AB /* ChatViewController.swift in Sources */,
 				9D2445E62861805B0076B7ED /* PhotoViewerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
